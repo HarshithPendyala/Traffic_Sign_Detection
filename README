@@ -1,0 +1,17 @@
+Hi, 
+Traffic Sign Recogniton as the name suggests, detects traffic signs from a natural scene image and classifies the traffic sign.
+
+Input and Output: A video - in_vid.mp4 [Signs are detected from the video , classified into respective class and writes in on the video]
+
+Three main compoenents:
+1. Pre-processing: PreProcessing.py 
+2. Detection: Detection.py
+3. Classification:
+  a) classification_model_training.py : Convolutional neural network training with German Traffic Sign Recognition Benchmark dataset. this creates the classification.hs file which is the trained model that is to be imported in the main code.
+  b) classification.py: classification of the detected sign
+  
+Main file to be run: TSDCM.py
+
+
+  
+  
